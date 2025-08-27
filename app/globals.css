@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.custom-gradient {
+  background: radial-gradient(125% 125% at 50% 10%, #000 40%, #3000af 100%);
+}
+
+body {
+  scrollbar-color: #555 #111; /* thumb color, track color */
+  scrollbar-width: thin;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+  border: 2px solid #111;
+}
